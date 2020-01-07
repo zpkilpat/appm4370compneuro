@@ -36,7 +36,6 @@ def alpha_m(Vm):
 def beta_m(Vm):
     return 4*np.exp(-Vm/18)
 
-# chloride ion-channel rate functions
 def alpha_h(Vm):
     return 0.07*np.exp(-Vm/20)
 
